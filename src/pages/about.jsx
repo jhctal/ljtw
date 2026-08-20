@@ -36,37 +36,30 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Latch. I live in London, where I design and build
-              applications.
+              I&#39;m Latch, a software engineer based in London.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I enjoy programming because there&apos;s always more to learn
-                and things I can improve on. I have a knack for breaking big
-                challenges down into smaller solvable problems.
+                I&#39;ve always been curious about how things work. As a kid I
+                was constantly taking things apart just to see what was inside.
+                That curiosity eventually led me to programming, where I found I
+                enjoyed solving problems just as much as building things.
               </p>
+
               <p>
-                I&apos;ve loved making things for as long as I can remember. As
-                a kid, I would often disassemble the electronic devices in our
-                house, which drove my parents mad. My curiosity and interest in
-                tinkering was fuelled further, when my dad brought home our
-                first computer. I&apos;d spend hours opening all of the
-                applications, to see what they could do and playing around in
-                Microsoft Paint.
+                Most of my work revolves around TypeScript, React and modern web
+                technologies, but I&#39;m always learning. Recently I&#39;ve
+                been spending more time exploring system design, networking,
+                cloud infrastructure and the foundations that sit beneath the
+                frameworks we use every day.
               </p>
+
               <p>
-                My love of art and drawing led me to studying animation at
-                university. Studying animation really strengthened my attention
-                to detail and knowledge of colour theory, both of which I have
-                found extremely useful when it comes to designing and building
-                UIs.
-              </p>
-              <p>
-                When I&apos;m not coding, I&apos;m a big comic and anime fan.
-                One thing I&apos;d like to explore in the future is electronics,
-                because I love the idea of turning my code into something
-                tangible. Being able to program hardware so that it can solve
-                physical problems is really intriguing.
+                Outside of software you&#39;ll usually find me at the gym,
+                reading comics, watching anime, cooking or working on side
+                projects. I&#39;m also becoming increasingly interested in
+                electronics and embedded systems, and I&#39;m excited to see
+                where that curiosity takes me next.
               </p>
             </div>
           </div>
