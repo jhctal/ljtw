@@ -10,16 +10,16 @@ import {
   LinkedInIcon,
   MailIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/alex-headshot.jpeg'
+import portraitImage from '@/images/latch-headshot.jpeg'
 
 export default function About() {
   return (
     <>
       <Head>
-        <title>About - Alex Jack</title>
+        <title>About - Latch Jack</title>
         <meta
           name="description"
-          content="I'm Alex Jack. I live in London, where I design and build applications."
+          content="I'm Latch Jack. I live in London, where I design and build applications."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -36,7 +36,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Alex. I live in London, where I design and build
+              I&apos;m Latch. I live in London, where I design and build
               applications.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -73,32 +73,32 @@ export default function About() {
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink
-                href="https://www.codewars.com/users/alexjack"
+                href="https://www.codewars.com/users/jhctal"
                 icon={CodeWarsIcon}
                 className="mt-4"
               >
                 Follow on CodeWars
               </SocialLink>
               <SocialLink
-                href="https://github.com/alexljack"
+                href="https://github.com/jhctal"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="https://www.linkedin.com/in/alexljack/"
+                href="https://www.linkedin.com/in/jhctal/"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Connect on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:alex.ljack4@gmail.com"
+                href="mailto:latch.jack@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                alex.ljack4@gmail.com
+                latch.jack@gmail.com
               </SocialLink>
             </ul>
             <br className="mt-12" />
