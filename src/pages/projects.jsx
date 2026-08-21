@@ -109,7 +109,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Projects"
-        intro="Side projects I build to scratch my own itches and learn new things along the way. Most of what's here is unfinished — that's kind of the point."
+        intro="Side projects I build to scratch my own itches and learn new things along the way. Most of what's here is still taking shape, as I like to share projects/ideas early and keep iterating in the open."
       >
         <ul
           role="list"
