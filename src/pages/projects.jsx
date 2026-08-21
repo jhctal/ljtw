@@ -10,26 +10,28 @@ import logoCoreKit from '@/images/logos/corekit_icon.png'
 
 const projects = [
   {
-    name: 'Motion (in progress)',
+    name: 'Motion',
     description:
-      'A fitness tracking app to replace logging my workouts in Apple Notes',
+      "Fitness tracking app I'm building because I got tired of logging workouts in Apple Notes.",
     link: {
-      href: 'https://github.com/jhctal/motion',
+      href: 'https://motion.latch.dev',
       repo: 'https://github.com/jhctal/motion',
-      label: 'github.com',
+      label: 'motion.latch.dev',
     },
     logo: logoMotion,
+    status: 'In Beta',
   },
   {
-    name: 'CoreKit (in progress)',
+    name: 'CoreKit',
     description:
-      'A React component library to help quickly prototype fast, beautiful and accessible applications',
+      'A React component library for prototyping accessible UI fast, without starting from scratch every time.',
     link: {
       href: 'https://github.com/jhctal',
       repo: 'https://github.com/jhctal',
       label: 'github.com',
     },
     logo: logoCoreKit,
+    status: 'Early stages',
   },
   // {
   //   name: 'Snake II',
@@ -103,11 +105,11 @@ export default function Projects() {
     <>
       <Head>
         <title>Projects - Latch Jack</title>
-        <meta name="description" content="Things I’ve built." />
+        <meta name="description" content="My side projects." />
       </Head>
       <SimpleLayout
         title="Projects"
-        intro="In my spare time, I explore new technologies by building tools, libraries, and experiments. This page documents that ongoing work — focused, iterative, and always evolving."
+        intro="Side projects I build to scratch my own itches and learn new things along the way. Most of what's here is unfinished — that's kind of the point."
       >
         <ul
           role="list"
@@ -123,8 +125,11 @@ export default function Projects() {
                   unoptimized
                 />
               </div>
-              <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+              <h2 className="mt-6 flex w-full justify-between text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <div className="flex items-center justify-center rounded-lg bg-green-600 px-1 text-xs text-white">
+                  {project.status}
+                </div>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200">
