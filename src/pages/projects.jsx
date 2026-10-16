@@ -19,7 +19,7 @@ const projects = [
       label: 'motion.latch.dev',
     },
     logo: logoMotion,
-    status: 'In Beta',
+    status: 'Live',
   },
   {
     name: 'CoreKit',
@@ -31,62 +31,8 @@ const projects = [
       label: 'github.com',
     },
     logo: logoCoreKit,
-    status: 'Early stages',
+    status: 'Building',
   },
-  // {
-  //   name: 'Snake II',
-  //   description: 'A rebuild of the classic, written in vanilla JavaScript.',
-  //   link: {
-  //     href: 'https://jhctal.github.io/sei-project-1/',
-  //     repo: 'https://github.com/jhctal/sei-project-1',
-  //     label: 'github.com',
-  //   },
-  //   logo: logoSnake,
-  // },
-  // {
-  //   name: 'TopTwenty',
-  //   description:
-  //     'A movie website built with React, that displays the best 20 films of each genre and year.',
-  //   link: {
-  //     href: 'https://top-twenty.herokuapp.com/',
-  //     repo: 'https://github.com/jhctal/sei-project-2',
-  //     label: 'github.com',
-  //   },
-  //   logo: logoTwenty,
-  // },
-  // {
-  //   name: 'GeocachR',
-  //   description:
-  //     'A geo-caching treasure hunting website. Front-end built with React and backend built with Node and MongoDB.',
-  //   link: {
-  //     href: 'https://github.com/jhctal/sei-group-project',
-  //     repo: 'https://github.com/jhctal/sei-group-project',
-  //     label: 'github.com',
-  //   },
-  //   logo: logoGeocachr,
-  // },
-  // {
-  //   name: 'NBA Legends',
-  //   description:
-  //     'The React front-end to an API I built. The back-end built with Node and MongoDB.',
-  //   link: {
-  //     href: 'http://nba-legend.herokuapp.com/',
-  //     repo: 'https://github.com/jhctal/nba-legends-api',
-  //     label: 'github.com',
-  //   },
-  //   logo: logoBasketball,
-  // },
-  // {
-  //   name: 'Pensive',
-  //   description:
-  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
-  //   link: {
-  //     href: 'http://pensiveworld.herokuapp.com/',
-  //     repo: 'https://github.com/jhctal/sei-final-project',
-  //     label: 'github.com',
-  //   },
-  //   logo: logoPenseive,
-  // },
 ]
 
 function LinkIcon(props) {
@@ -127,7 +73,7 @@ export default function Projects() {
               </div>
               <h2 className="mt-6 flex w-full justify-between text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <Card.Link href={project.link.href}>{project.name}</Card.Link>
-                <div className="flex items-center justify-center rounded-lg bg-green-600 px-1 text-xs text-white">
+                <div className="flex items-center justify-center rounded-lg border border-zinc-300 px-2 text-[.6rem] text-gray-500 dark:border-zinc-500 dark:text-zinc-300">
                   {project.status}
                 </div>
               </h2>
