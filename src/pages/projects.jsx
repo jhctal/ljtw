@@ -26,8 +26,8 @@ const projects = [
     description:
       'A React component library for prototyping accessible UI fast, without starting from scratch every time.',
     link: {
-      href: 'https://github.com/jhctal',
-      repo: 'https://github.com/jhctal',
+      href: 'https://github.com/jhctal/jackstack-corekit',
+      repo: 'https://github.com/jhctal/jackstack-corekit',
       label: 'github.com',
     },
     logo: logoCoreKit,
